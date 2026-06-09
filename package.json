@@ -13,7 +13,7 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "publicsofttools-mcp": "./dist/index.js"
+    "publicsofttools-mcp": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
