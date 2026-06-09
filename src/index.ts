@@ -357,6 +357,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           text: args.text,
           size: args.size ?? 256,
           format: args.format ?? "png",
+          dark: args.dark,
+          light: args.light,
+          error_correction: args.error_correction,
         });
         break;
 
@@ -406,7 +409,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       case "compress_pdf":
         result = await callApi("/pdf/compress", "POST", {
           file: args.file_base64,
-          quality: args.quality ?? "ebook",
+          level: args.level ?? "ebook",
         });
         break;
 

@@ -1,6 +1,6 @@
 {
   "name": "publicsofttools-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for PublicSoftTools — QR codes, PDF tools, DNS, SSL, IP lookup, hashing and more",
   "keywords": ["mcp", "mcp-server", "pdf", "qr-code", "dns", "ssl", "utilities", "publicsofttools"],
   "author": "PublicSoftTools",
